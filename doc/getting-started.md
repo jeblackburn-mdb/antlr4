@@ -37,6 +37,8 @@ NEWLINE : [\r\n]+ -> skip;
 INT     : [0-9]+ ;
 ```
 
+To continue with the tutorial, write this text to a file called `Expr.g4` in your working directory.
+
 ### Windows-specific issues
 
 On Windows, the `pip` command doesn't just work---you need to add the `...\local-packages\python38\scripts` dir to your `PATH`, which itself might require a fun reboot.  If you use WSL on Windows, then the pip install will also properly at the scripts directly (if you run from bash shell).
